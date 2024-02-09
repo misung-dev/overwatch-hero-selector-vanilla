@@ -143,3 +143,13 @@ body {
 .container .heroes .hero:nth-child(32) .image {
 	background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/hero32.png");
 }
+
+.container .logo {
+	max-width: 300px;
+	margin: 0 auto; /* 요소 하나를 특정한 영역의 가운데 정렬 하고 싶다면, flex 대신 margin을 통해 정렬 가능 */
+	padding: 0 20px;
+}
+
+.container .logo img {
+	width: 100%; /* 로고를 부모 요소의 최대 너비에 맞춰서 출력 */
+}
